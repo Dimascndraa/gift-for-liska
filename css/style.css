@@ -903,7 +903,7 @@ body {
     width: 9px;
 }
 
-.one_number:after {
+/* .one_number:after {
     content: "";
     height: 5px;
     width: 5px;
@@ -911,7 +911,7 @@ body {
     background: #c6c6c6;
     top: 0px;
     left: 0px;
-}
+} */
 
 .one_number:before {
     content: "";
@@ -920,7 +920,7 @@ body {
     position: absolute;
     background: #c6c6c6;
     top: 0px;
-    right: 0px;
+    right: 1px;
 }
 
 .seven_number {
@@ -930,16 +930,6 @@ body {
     width: 14px;
 }
 
-.seven_number:after {
-    content: "";
-    height: 5px;
-    width: 20px;
-    position: absolute;
-    background: #c6c6c6;
-    top: 0px;
-    left: -2px;
-}
-
 .seven_number:before {
     content: "";
     height: 27px;
@@ -947,9 +937,9 @@ body {
     position: absolute;
     background: #c6c6c6;
     top: 0px;
-    right: 0px;
-    -webkit-transform: rotate(20deg);
-    transform: rotate(20deg);
+    right: 3px;
+    /* -webkit-transform: rotate(20deg);
+    transform: rotate(20deg); */
 }
 
 .seven_flame {
